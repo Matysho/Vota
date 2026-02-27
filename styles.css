@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+
+
+.targeta {
+    width: 220px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(13, 184, 214);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s; /* hace la animación suave */
+}
+
+.targeta:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 20px rgb(13, 184, 214);
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(7, 112, 138);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color: rgb(0, 80, 100);
+    transform: scale(1.1);
+    transition: 0.3s;
+    }
